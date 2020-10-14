@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+span {
+	font-family: 'Indie Flower', cursive;
+}
+header {
+	font-size: 2rem;
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	height: 10vh;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	margin: 20px 10px;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	background-color: #e4e4e4;
+	min-height: 100vh;
+}
+
+input {
+	padding: 0.3rem;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 1em;
+	font-weight: 200;
+	opacity: 0.8;
+	width: 60vh;
+	background: none;
+}
+
+.content-window {
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	width: 70vh;
+	margin: auto;
+	padding: 1rem;
+	overflow-x: scroll;
+	overflow-y: none;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+#ulList {
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	padding: 0 10px;
+	word-break: break-all;
+}
+
+.todoItem {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	width: 60vh;
+}
+
+button {
+	padding: 0.4rem;
+	margin: 0 0.4rem;
+}
+
+i {
+	font-size: 20px;
+}
+
+i:hover {
+	color: rgb(131, 131, 131);
+	background-color: transparent;
+}
+
+/* toggle Classe */
+.bottom {
+	background-color: rgb(173, 173, 173);
+	margin-top: 2.5rem;
+	order: +1;
+	transition: all 1s cubic-bezier(0.52, -0.17, 0.54, 1.65);
+}
+
+.lineThrough {
+	text-decoration: line-through;
+	opacity: 0.3;
+}
+
+#line {
+	text-decoration: line-through;
+}

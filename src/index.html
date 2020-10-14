@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>What To Do-List</title>
+		<link rel="stylesheet" type="text/css" href="./todo.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Baskerville:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/e06f6437f6.js"
+			crossorigin="anonymous"
+		></script>
+		<script defer src="./js/todo.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1><span id="line">WHAT</span> To Do</h1>
+		</header>
+		<div class="content">
+			<button class="clear">Clear All Tasks</button>
+			<input
+				type="text"
+				class="todo-input"
+				id="input"
+				placeholder="Add an item"
+				autocomplete="off"
+			/>
+			<!-- input field-->
+			<button class="todo-button" type="submit">
+				<i class="fas fa-arrow-alt-circle-down" id="add-button"></i>
+				<!-- add button-->
+			</button>
+		</div>
+
+		<div class="content-window">
+			<ul id="ulList"></ul>
+		</div>
+	</body>
+</html>
