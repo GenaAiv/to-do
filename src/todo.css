@@ -111,3 +111,39 @@ i:hover {
 #line {
 	text-decoration: line-through;
 }
+
+@media screen and (max-width: 780px) {
+	header {
+		font-size: 70%;
+	}
+	.content {
+		width: 30vw;
+		height: 30%;
+		margin: auto;
+	}
+	.clear .todo-button {
+		margin: 5px;
+		font-size: 9px;
+		padding: 7px;
+	}
+	.content-window {
+		width: 70%;
+		height: 300px;
+		margin: auto;
+		margin-top: 30px;
+		padding: 10px;
+	}
+	.todoItem {
+		max-width: 18rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.content-window {
+		text-align: center;
+		font-size: 60%;
+	}
+	.todoItem {
+		max-width: 12rem;
+	}
+}
