@@ -15,3 +15,6 @@
 * CSS
 * JavaScript
 * Local Storage
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab45fc18-006d-4da5-a9a1-4fa004b76ceb/deploy-status)](https://app.netlify.com/sites/focused-lewin-e18a11/deploys)
