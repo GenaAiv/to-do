@@ -1,15 +1,14 @@
 # What To-Do?!
 
 
-## This app was made with love
+## This is myy first project
+
+#### A simple todo app where users can add their daily tasks.
+#### Users can mark an added task as completed. 
+#### They can delete only completed task or all added task as they wish.
 
 
-### A simple todo app where users can add their daily tasks.
-### Users can mark an added task as completed. 
-### They can delete only completed task or all added task as they wish.
 
-
-## Used:
 * HTML
 * CSS
 * JavaScript
