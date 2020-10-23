@@ -1,11 +1,13 @@
 # What To-Do?!
 
 
-### This is my first project
+### A simple to-do web app which does not require a server.
 
  A simple todo app where users can add their daily tasks.
  Users can mark an added task as completed. 
- They can delete only completed task or all added task as they wish.
+ They can delete only completed tasks or all added task at once. 
+ 
+ The tasks get saved in local storage
 
 
 
