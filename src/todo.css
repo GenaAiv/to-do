@@ -144,9 +144,10 @@ i:hover {
 	cursor: pointer;
 	border: none;
 	background: transparent;
-	color: #ffffff !important;
+	color: 'black' !important;
 	font-weight: 100;
 	padding: 20px;
+	margin: 20px;
 	text-transform: uppercase;
 	border-radius: 6px;
 	display: inline-block;
